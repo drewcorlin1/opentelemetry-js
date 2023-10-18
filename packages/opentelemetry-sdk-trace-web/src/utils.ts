@@ -132,7 +132,7 @@ export function sortResources(
 }
 
 /** Returns the origin if present (if in browser context) */
-function getOrigin(): string | undefined{
+function getOrigin(): string | undefined {
   return typeof location !== 'undefined' ? location.origin : undefined;
 }
 
